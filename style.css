@@ -66,10 +66,14 @@ a {
 
 .bgcontenedor {
   display: flex;
+  background-position: center;
+  background-size: 102% 89%;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  background-image: url("bg-index.png");
 }
 
 .gris {
-  background-color: #C6C6C5;
   width: 50%;
   height: 100vh;
 }
@@ -77,7 +81,6 @@ a {
 .negro {
   width: 50%;
   height: 100vh;
-  background-color: #5B5B5B;
 }
 
 .letrasG {
@@ -91,18 +94,25 @@ a {
   opacity: 0.5;
 }
 
+.botonera {
+  margin-top: 166px;
+  margin-left: 10px;
+  width: 37%;
+  height: 348px;
+  display: inline-block;
+}
+
 .conexto {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(68, 68, 68, 0.8);
   color: #ffffff;
-  width: 171px;
+  width: 60px;
   height: 34px;
   font-size: 20px;
-  justify-content: center;
+  justify-content: left;
   border: solid #ffffff 1px;
-  border-radius: 20px;
-  margin-top: -582px;
-  margin-left: 103px;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-left: 30px;
   cursor: pointer;
   transition: all 1s;
 }
@@ -112,7 +122,7 @@ a {
 }
 
 .conexto p {
-  text-align: center;
+  text-align: left;
   width: 80%;
   margin-left: 10%;
 }
@@ -125,7 +135,7 @@ a {
   position: absolute;
   width: 80%;
   height: 70%;
-  margin-top: -515px;
+  margin-top: -447px;
   margin-left: 10%;
   display: flex;
 }
@@ -142,7 +152,7 @@ a {
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  font-size: 33px;
+  font-size: 20px;
   justify-content: center;
   text-align: center;
   line-height: 180px;
@@ -183,7 +193,7 @@ a {
   height: 620px;
   background: url(bg-01.png);
   background-repeat: no-repeat;
-  background-size: 118% 620px;
+  background-size: 100% 620px;
 }
 
 .contenedor2 {
@@ -318,7 +328,7 @@ a {
   position: absolute;
   font-size: 40px;
   margin-left: 22px;
-  margin-top: -581px;
+  margin-top: 10px;
   background-color: rgb(0, 0, 0);
   color: #fff;
   border-radius: 50%;
@@ -401,7 +411,17 @@ a {
 }
 
 .hide {
-  display: none;
+  visibility: hidden;
+  opacity: 0;
+  margin-top: -298px !important;
+}
+
+.activo {
+  color: #d18a29 !important;
+  border: solid #d18a29 4px;
+  box-shadow: 26px 23px 86px -24px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: 26px 23px 86px -24px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 26px 23px 86px -24px rgba(255, 255, 255, 0.75);
 }
 
 .logo {
@@ -410,7 +430,7 @@ a {
   margin-top: 10px;
 }
 
-.btnplay2{
+.btnplay2 {
   position: absolute;
   background-color: rgba(0, 0, 0, 1);
   color: #ffffff;
@@ -426,7 +446,7 @@ a {
   transition: all 1s;
 }
 
-.btnplay2 i{
+.btnplay2 i {
   margin-left: 6px;
   margin-top: 7px;
 }
@@ -502,7 +522,7 @@ a {
   display: none;
 }
 
-.titulos{
+.titulos {
   text-align: center;
   margin: 0;
   font-size: 25px;
@@ -513,10 +533,36 @@ a {
   margin-top: 100%;
 }
 
-.mo{
+.mo {
   margin-top: 50%;
 }
 
-.mf{
+.mf {
   margin-top: 6%;
+}
+
+.texto1 {
+  position: absolute;
+  margin-top: -377px;
+  margin-left: 141px;
+  width: 78%;
+  height: 402px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+  transition: all 1s;
+  align-content: center;
+  text-align: justify;
+  line-height: 21px;
+  box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
+}
+
+.intertexto{
+  padding-top: 10%;
 }
