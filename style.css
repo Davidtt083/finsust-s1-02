@@ -329,7 +329,7 @@ a {
   font-size: 40px;
   margin-left: 22px;
   margin-top: 10px;
-  background-color: rgb(0, 0, 0);
+  background-color: #009fb4;
   color: #fff;
   border-radius: 50%;
   width: 60px;
@@ -413,7 +413,7 @@ a {
 .hide {
   visibility: hidden;
   opacity: 0;
-  margin-top: -298px !important;
+  margin-top: -386px !important;
 }
 
 .activo {
@@ -543,10 +543,10 @@ a {
 
 .texto1 {
   position: absolute;
-  margin-top: -377px;
+  margin-top: -397px;
   margin-left: 141px;
   width: 78%;
-  height: 402px;
+  height: 481px;
   background-color: rgba(255, 255, 255, 0.2);
   color: #ffffff;
   border-radius: 20px;
@@ -556,7 +556,7 @@ a {
   padding-right: 16px;
   transition: all 1s;
   align-content: center;
-  text-align: justify;
+  /*text-align: justify;*/
   line-height: 21px;
   box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
@@ -564,5 +564,33 @@ a {
 }
 
 .intertexto{
-  padding-top: 10%;
+  width: 100%;
+  padding-top: 2%;
+  display: flex;
+}
+
+.parr{
+  width: 60%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.conteima{
+  width: 30%;
+  margin-left: 67%;
+}
+.contimachild{
+  width: 222px;
+}
+
+.tituparr{
+  color: #009fb4;
+  font-size: 21px;
+  text-align: left !important;
+}
+
+.justo{
+  text-align: justify;
 }
