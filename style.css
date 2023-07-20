@@ -142,7 +142,7 @@ a {
 
 .princ {
   background-color: #000;
-  color: #fff;
+  color: #d18a29;
   border-radius: 10px;
   width: 25%;
   height: 40%;
@@ -155,7 +155,7 @@ a {
   font-size: 20px;
   justify-content: center;
   text-align: center;
-  line-height: 148px;
+  line-height: 163px;
   transition: all 1s;
   box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 26px 23px 86px -24px rgba(0, 0, 0, 0.75);
@@ -372,6 +372,39 @@ a {
   border-radius: 20px;
   transition: all 1s;
   cursor: pointer;
+}
+
+.btn1 {
+  background-image: url("fbtn.jpg");
+  background-size: 214px 242px;
+  transition: all 0.5s;
+}
+
+.btn1:hover {
+  color: #ffffff;
+  line-height: 314px;
+}
+
+.btn2 {
+  background-image: url("fbtn3.jpg");
+  background-size: 176px 220px;
+  transition: all 0.5s;
+}
+
+.btn2:hover {
+  color: #ffffff;
+  line-height: 314px;
+}
+
+.btn3 {
+  background-image: url("fbtn2.jpg");
+  background-size: 209px 225px;
+  transition: all 0.5s;
+}
+
+.btn3:hover {
+  color: #ffffff;
+  line-height: 314px;
 }
 
 .modOperativo:hover {
@@ -593,4 +626,12 @@ a {
 
 .justo{
   text-align: justify;
+}
+
+.logo-egade{
+  position: absolute;
+  width: 224px;
+  height: auto;
+  margin-top: 19px;
+  margin-left: 630px;
 }
