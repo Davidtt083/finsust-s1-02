@@ -67,7 +67,7 @@ a {
 .bgcontenedor {
   display: flex;
   background-position: center;
-  background-size: 102% 102%%;
+  background-size: 100%;
   background-repeat: no-repeat;
   max-width: 100%;
   background-image: url("bg-index.png");
@@ -135,7 +135,7 @@ a {
   position: absolute;
   width: 80%;
   height: 70%;
-  margin-top: -447px;
+  margin-top: -404px;
   margin-left: 10%;
   display: flex;
 }
@@ -381,6 +381,7 @@ a {
 }
 
 .btn1:hover {
+  opacity: 0.5;
   color: #ffffff;
   line-height: 314px;
 }
@@ -392,6 +393,7 @@ a {
 }
 
 .btn2:hover {
+  opacity: 0.5;
   color: #ffffff;
   line-height: 314px;
 }
@@ -403,6 +405,7 @@ a {
 }
 
 .btn3:hover {
+  opacity: 0.5;
   color: #ffffff;
   line-height: 314px;
 }
@@ -634,4 +637,12 @@ a {
   height: auto;
   margin-top: 19px;
   margin-left: 630px;
+}
+
+.titulo{
+  margin-top: -103px;
+}
+
+.titulo:hover{
+  opacity: 1;
 }
